@@ -12,7 +12,7 @@ export default function Homepage() {
     projects="cursor-pointer opacity-50 hover:opacity-100 active:text-[#3498db]"
     logodesign="cursor-pointer opacity-50 hover:opacity-100 active:text-[#3498db]"
     content={
-      <div className="w-8/12 h-screen mx-auto flex flex-col mt-5 md:mt-20">
+      <div className="w-8/12 mx-auto flex flex-col mt-5 md:mt-20">
       <h1 className="text-center font-bold text-3xl mb-3 md:mb-10">About</h1>
       <p className="text-center">I was worked in FnB Industry and now I shift my career to Front End Engineer. I passed
       the Alterra Academy Immersive bootcamp for 3 months and learn many things about
