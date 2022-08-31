@@ -7,6 +7,7 @@ export default function Layout({page, about, skill, education, certificate, proj
     <div className='flex justify-end w-full'>
         <Head>
             <title>M Ikbal Tawakal | {page}</title>
+            <link rel='icon' href='/clipboard-list.svg' />
         </Head>
         <div className='w-4/12 fixed top-0 bottom-0 left-0 bg-[#2c3e50]'>
           <Sidebar />
