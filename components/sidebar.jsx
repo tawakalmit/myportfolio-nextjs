@@ -24,6 +24,9 @@ export default function Sidebar() {
                 <RiInstagramFill color='#ecf0f1' size={30} alt="Instagram" onClick={() => router.push("https://www.instagram.com/tawakalmit/")} className='cursor-pointer hover:opacity-40' />
                 <SiVercel color='#ecf0f1' size={30} alt="Vercel" onClick={() => router.push("https://vercel.com/tawakalmit")} className='cursor-pointer hover:opacity-40' />
             </div>
+            <div className="w-32 cursor-pointer justify-center rounded-xl text-white mt-10 flex items-center h-7 bg-[#1abc9c] hover:opacity-50" onClick={() => router.push("https://drive.google.com/file/d/1E243crbrzHoYic8dObvoYc9F6t2_Sbrd/view?usp=sharing")}>
+      Download CV
+    </div>
         </div>
     </div>
   )
